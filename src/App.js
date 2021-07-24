@@ -3,8 +3,8 @@ import Search from './components/Search';
 import UserCard from './components/UserCard';
 import RepoCard from './components/RepoCard';
 import { withRouter } from 'react-router-dom';
-
-const PAGE_SIZE = 10;
+// to do UI enhancement pending
+const PAGE_SIZE = 10; 
 
 class App extends React.Component {
   state = {
